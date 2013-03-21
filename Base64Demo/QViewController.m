@@ -18,6 +18,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *textStr = [NSString stringWithFormat:@"text"];
+    NSData *data = [NSData dataFromBase64String:textStr];
+    NSLog(@"%@",data);
+    textStr = [data base64EncodedString];
+    NSLog(@"%@",textStr);
+    
+    
+    //NSData *data = [NSData data];
 }
 
 - (void)didReceiveMemoryWarning

@@ -23,6 +23,7 @@
 		4D22FAE916F07B5500A9FD34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D22FAC416F07B5500A9FD34 /* Foundation.framework */; };
 		4D22FAF116F07B5500A9FD34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D22FAEF16F07B5500A9FD34 /* InfoPlist.strings */; };
 		4D22FAF416F07B5500A9FD34 /* Base64DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22FAF316F07B5500A9FD34 /* Base64DemoTests.m */; };
+		4D22FAFF16F07C2800A9FD34 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22FAFE16F07C2800A9FD34 /* NSData+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		4D22FAF016F07B5500A9FD34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D22FAF216F07B5500A9FD34 /* Base64DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base64DemoTests.h; sourceTree = "<group>"; };
 		4D22FAF316F07B5500A9FD34 /* Base64DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Base64DemoTests.m; sourceTree = "<group>"; };
+		4D22FAFD16F07C2800A9FD34 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		4D22FAFE16F07C2800A9FD34 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 		4D22FAC816F07B5500A9FD34 /* Base64Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4D22FAFD16F07C2800A9FD34 /* NSData+Base64.h */,
+				4D22FAFE16F07C2800A9FD34 /* NSData+Base64.m */,
 				4D22FAD116F07B5500A9FD34 /* QAppDelegate.h */,
 				4D22FAD216F07B5500A9FD34 /* QAppDelegate.m */,
 				4D22FADA16F07B5500A9FD34 /* QViewController.h */,
@@ -274,6 +279,7 @@
 				4D22FACF16F07B5500A9FD34 /* main.m in Sources */,
 				4D22FAD316F07B5500A9FD34 /* QAppDelegate.m in Sources */,
 				4D22FADC16F07B5500A9FD34 /* QViewController.m in Sources */,
+				4D22FAFF16F07C2800A9FD34 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

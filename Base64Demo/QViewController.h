@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "NSData+Base64.h"
 @interface QViewController : UIViewController
 
 @end
